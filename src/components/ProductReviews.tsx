@@ -112,7 +112,7 @@ export default function ProductReviews({ overallRating, totalReviews, ratingBrea
 
       {/* Write a Review Button */}
       <div className="mb-8">
-        <button className="bg-[#00857E] hover:bg-[#006d67] text-white font-semibold py-3 px-8 rounded-lg transition-colors">
+        <button className="bg-[#3b82f6] hover:bg-[#006d67] text-white font-semibold py-3 px-8 rounded-lg transition-colors">
           Write a Review
         </button>
       </div>
@@ -136,8 +136,8 @@ export default function ProductReviews({ overallRating, totalReviews, ratingBrea
               onClick={() => handleHelpful(review.id)}
               className={`flex items-center gap-2 text-sm transition-colors ${
                 helpfulClicks.has(review.id)
-                  ? 'text-[#00857E] font-semibold'
-                  : 'text-gray-600 hover:text-[#00857E]'
+                  ? 'text-[#3b82f6] font-semibold'
+                  : 'text-gray-600 hover:text-[#3b82f6]'
               }`}
             >
               <ThumbsUp className={`w-4 h-4 ${helpfulClicks.has(review.id) ? 'fill-current' : ''}`} />
@@ -150,7 +150,7 @@ export default function ProductReviews({ overallRating, totalReviews, ratingBrea
       {/* Load More Button */}
       {reviews.length > 0 && (
         <div className="mt-8 text-center">
-          <button className="border-2 border-gray-300 hover:border-[#00857E] text-gray-700 hover:text-[#00857E] font-semibold py-3 px-8 rounded-lg transition-colors">
+          <button className="border-2 border-gray-300 hover:border-[#3b82f6] text-gray-700 hover:text-[#3b82f6] font-semibold py-3 px-8 rounded-lg transition-colors">
             Load More Reviews
           </button>
         </div>

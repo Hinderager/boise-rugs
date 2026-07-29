@@ -89,7 +89,7 @@ const sampleProducts: ProductCardProps[] = [
     originalPrice: 229.99,
     rating: 4,
     reviewCount: 178,
-    colors: ['#00857E', '#FFFFFF', '#6B7280'],
+    colors: ['#3b82f6', '#FFFFFF', '#6B7280'],
     freeShipping: true
   },
   {
@@ -145,14 +145,14 @@ const ProductGrid: React.FC<ProductGridProps> = ({
                 <div className="flex items-center border border-gray-300 rounded-lg overflow-hidden">
                   <button
                     onClick={() => setGridCols(3)}
-                    className={`p-2 ${gridCols === 3 ? 'bg-[#00857E] text-white' : 'bg-white text-gray-600 hover:bg-gray-50'}`}
+                    className={`p-2 ${gridCols === 3 ? 'bg-[#3b82f6] text-white' : 'bg-white text-gray-600 hover:bg-gray-50'}`}
                     aria-label="3 columns"
                   >
                     <Grid3x3 className="w-5 h-5" />
                   </button>
                   <button
                     onClick={() => setGridCols(4)}
-                    className={`p-2 ${gridCols === 4 ? 'bg-[#00857E] text-white' : 'bg-white text-gray-600 hover:bg-gray-50'}`}
+                    className={`p-2 ${gridCols === 4 ? 'bg-[#3b82f6] text-white' : 'bg-white text-gray-600 hover:bg-gray-50'}`}
                     aria-label="4 columns"
                   >
                     <LayoutGrid className="w-5 h-5" />
@@ -168,7 +168,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
                     id="sort"
                     value={sortBy}
                     onChange={(e) => setSortBy(e.target.value)}
-                    className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+                    className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
                   >
                     <option value="relevance">Relevance</option>
                     <option value="price-low">Price: Low to High</option>
@@ -188,7 +188,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
                     id="perPage"
                     value={itemsPerPage}
                     onChange={(e) => setItemsPerPage(Number(e.target.value))}
-                    className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+                    className="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
                   >
                     <option value={24}>24</option>
                     <option value={36}>36</option>
@@ -214,7 +214,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
         {displayedProducts.length === 0 && (
           <div className="text-center py-16">
             <p className="text-gray-500 text-lg">No products found matching your criteria.</p>
-            <button className="mt-4 text-[#00857E] hover:text-[#006d66] font-medium">
+            <button className="mt-4 text-[#3b82f6] hover:text-[#2563eb] font-medium">
               Clear all filters
             </button>
           </div>
@@ -248,7 +248,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({
                       onClick={() => handlePageChange(page)}
                       className={`px-4 py-2 rounded-md transition-colors ${
                         currentPage === page
-                          ? 'bg-[#00857E] text-white'
+                          ? 'bg-[#3b82f6] text-white'
                           : 'border border-gray-300 hover:bg-white'
                       }`}
                     >

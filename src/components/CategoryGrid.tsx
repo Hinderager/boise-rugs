@@ -122,7 +122,7 @@ const CategoryGrid: React.FC<CategoryGridProps> = ({
               </div>
 
               {/* Hover Effect */}
-              <div className="absolute inset-0 border-2 border-transparent group-hover:border-[#00857E] rounded-lg transition-colors duration-300"></div>
+              <div className="absolute inset-0 border-2 border-transparent group-hover:border-[#3b82f6] rounded-lg transition-colors duration-300"></div>
             </Link>
           ))}
         </div>
@@ -131,7 +131,7 @@ const CategoryGrid: React.FC<CategoryGridProps> = ({
         <div className="text-center mt-10">
           <Link
             href="/rooms"
-            className="inline-block bg-[#00857E] hover:bg-[#006d66] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
+            className="inline-block bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
           >
             View All Rooms
           </Link>

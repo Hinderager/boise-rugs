@@ -46,20 +46,20 @@ export default function Rugs101Page() {
             <section>
               <h2 className="text-3xl font-bold text-gray-900 mb-4">Rug Materials</h2>
               <div className="space-y-6">
-                <div className="border-l-4 border-[#00857E] pl-6">
+                <div className="border-l-4 border-[#3b82f6] pl-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Wool</h3>
                   <p className="text-gray-600">Natural, durable, and luxurious.</p>
                 </div>
-                <div className="border-l-4 border-[#00857E] pl-6">
+                <div className="border-l-4 border-[#3b82f6] pl-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Synthetic</h3>
                   <p className="text-gray-600">Affordable and easy to clean.</p>
                 </div>
               </div>
             </section>
 
-            <div className="bg-[#00857E] text-white rounded-lg p-8 text-center">
+            <div className="bg-[#3b82f6] text-white rounded-lg p-8 text-center">
               <h2 className="text-2xl font-bold mb-4">Ready to Shop?</h2>
-              <a href="/rugs" className="inline-block bg-white text-[#00857E] font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
+              <a href="/rugs" className="inline-block bg-white text-[#3b82f6] font-semibold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors">
                 Shop All Rugs
               </a>
             </div>

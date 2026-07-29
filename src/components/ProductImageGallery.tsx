@@ -74,7 +74,7 @@ export default function ProductImageGallery({ images, productName }: ProductImag
             onClick={() => setSelectedIndex(index)}
             className={`relative aspect-square rounded-md overflow-hidden border-2 transition-all ${
               selectedIndex === index
-                ? 'border-[#00857E] ring-2 ring-[#00857E]/30'
+                ? 'border-[#3b82f6] ring-2 ring-[#3b82f6]/30'
                 : 'border-gray-200 hover:border-gray-400'
             }`}
           >

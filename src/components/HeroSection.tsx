@@ -40,7 +40,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Discount Badge */}
           {discount && (
             <div className="inline-block mb-6">
-              <span className="bg-[#00857E] text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wide shadow-lg">
+              <span className="bg-[#3b82f6] text-white px-6 py-2 rounded-full text-sm font-bold uppercase tracking-wide shadow-lg">
                 {discount}
               </span>
             </div>
@@ -59,7 +59,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           {/* CTA Button */}
           <Link
             href={ctaLink}
-            className="inline-block bg-[#00857E] hover:bg-[#006d66] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+            className="inline-block bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
           >
             {ctaText}
           </Link>
@@ -67,19 +67,19 @@ const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Additional Features */}
           <div className="mt-8 flex flex-wrap gap-6">
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-[#00857E]" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5 text-[#3b82f6]" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span className="text-sm font-medium">Free Shipping</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-[#00857E]" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5 text-[#3b82f6]" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span className="text-sm font-medium">30-Day Returns</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-[#00857E]" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5 text-[#3b82f6]" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
               <span className="text-sm font-medium">Expert Support</span>

@@ -54,7 +54,7 @@ export default function ProductPage({ params }: { params: Promise<{ id: string }
     originalPrice: 499.99,
     salePrice: 349.99,
     colors: [
-      { name: 'Teal', hex: '#00857E' },
+      { name: 'Teal', hex: '#3b82f6' },
       { name: 'Gray', hex: '#6B7280' },
       { name: 'Beige', hex: '#D4C5B9' },
       { name: 'Navy', hex: '#1E3A8A' },

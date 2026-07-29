@@ -25,11 +25,11 @@ export default function LivingRoomRugsPage() {
       <div className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-3">
           <nav className="flex items-center gap-2 text-sm">
-            <Link href="/" className="text-gray-600 hover:text-[#00857E] transition-colors">
+            <Link href="/" className="text-gray-600 hover:text-[#3b82f6] transition-colors">
               <Home className="w-4 h-4" />
             </Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <Link href="/shop-by-room" className="text-gray-600 hover:text-[#00857E] transition-colors">
+            <Link href="/shop-by-room" className="text-gray-600 hover:text-[#3b82f6] transition-colors">
               Shop by Room
             </Link>
             <ChevronRight className="w-4 h-4 text-gray-400" />
@@ -50,15 +50,15 @@ export default function LivingRoomRugsPage() {
             </p>
             <div className="flex flex-wrap gap-4 text-sm">
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#00857E] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#3b82f6] rounded-full"></div>
                 <span>Popular sizes: 5x7, 6x9, 8x10, 9x12</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#00857E] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#3b82f6] rounded-full"></div>
                 <span>Free shipping on all orders</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-[#00857E] rounded-full"></div>
+                <div className="w-2 h-2 bg-[#3b82f6] rounded-full"></div>
                 <span>30-day returns</span>
               </div>
             </div>

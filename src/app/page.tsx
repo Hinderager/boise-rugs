@@ -117,7 +117,7 @@ export default function HomePage() {
       </section>
 
       {/* Trust & Credibility Section */}
-      <section className="py-12 bg-[#00857E] text-white">
+      <section className="py-12 bg-[#3b82f6] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
@@ -127,7 +127,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Free Shipping</h3>
-              <p className="text-teal-100">On all orders over $99</p>
+              <p className="text-blue-100">On all orders over $99</p>
             </div>
 
             <div>
@@ -137,7 +137,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Quality Guarantee</h3>
-              <p className="text-teal-100">Premium materials & craftsmanship</p>
+              <p className="text-blue-100">Premium materials & craftsmanship</p>
             </div>
 
             <div>
@@ -147,7 +147,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Easy Returns</h3>
-              <p className="text-teal-100">30-day hassle-free returns</p>
+              <p className="text-blue-100">30-day hassle-free returns</p>
             </div>
 
             <div>
@@ -157,7 +157,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold mb-2">Best Price Promise</h3>
-              <p className="text-teal-100">Up to 80% off retail prices</p>
+              <p className="text-blue-100">Up to 80% off retail prices</p>
             </div>
           </div>
         </div>
@@ -173,11 +173,11 @@ export default function HomePage() {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-4 py-3 border border-gray-300 rounded-lg flex-1 max-w-md focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+              className="px-4 py-3 border border-gray-300 rounded-lg flex-1 max-w-md focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
             />
             <button
               type="submit"
-              className="px-8 py-3 bg-[#00857E] text-white font-semibold rounded-lg hover:bg-[#006d66] transition-colors"
+              className="px-8 py-3 bg-[#3b82f6] text-white font-semibold rounded-lg hover:bg-[#2563eb] transition-colors"
             >
               Subscribe
             </button>

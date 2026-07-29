@@ -25,7 +25,7 @@ export default function NewTrendingPage() {
       </div>
 
       {/* Page Header */}
-      <div className="bg-gradient-to-r from-[#00857E] to-teal-600 text-white">
+      <div className="bg-gradient-to-r from-[#3b82f6] to-blue-600 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex items-center gap-3 mb-2">
             <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -33,7 +33,7 @@ export default function NewTrendingPage() {
             </svg>
             <h1 className="text-4xl font-bold">New & Trending</h1>
           </div>
-          <p className="text-xl text-teal-100">
+          <p className="text-xl text-blue-100">
             Discover our latest arrivals and most popular rug styles
           </p>
         </div>

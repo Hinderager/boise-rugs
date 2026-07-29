@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       {/* Top Bar */}
-      <div className="bg-[#00857E] text-white text-center py-2 text-sm">
+      <div className="bg-[#3b82f6] text-white text-center py-2 text-sm">
         <p>Free Shipping on All Orders | Extra 10% Off 2+ Rugs</p>
       </div>
 
@@ -42,7 +42,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <span className="text-2xl font-bold text-[#00857E]">Boise Rugs</span>
+            <span className="text-2xl font-bold text-[#3b82f6]">Boise Rugs</span>
           </Link>
 
           {/* Search Bar */}
@@ -51,7 +51,7 @@ export default function Header() {
               <input
                 type="text"
                 placeholder="Search rugs..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#00857E] focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
               />
               <button className="absolute right-3 top-1/2 transform -translate-y-1/2">
                 <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -106,7 +106,7 @@ export default function Header() {
               >
                 <Link 
                   href={item.href}
-                  className="block py-4 text-sm font-medium text-gray-700 hover:text-[#00857E] transition-colors"
+                  className="block py-4 text-sm font-medium text-gray-700 hover:text-[#3b82f6] transition-colors"
                 >
                   {item.name}
                 </Link>
@@ -116,7 +116,7 @@ export default function Header() {
                       <Link
                         key={subItem.name}
                         href={subItem.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#00857E]"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#3b82f6]"
                       >
                         {subItem.name}
                       </Link>
@@ -136,7 +136,7 @@ export default function Header() {
             <input
               type="text"
               placeholder="Search rugs..."
-              className="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+              className="w-full px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
             />
           </div>
           <ul className="px-4 pb-4">

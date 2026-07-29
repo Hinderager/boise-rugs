@@ -186,7 +186,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
             {getActiveFilterCount() > 0 && (
               <button
                 onClick={clearAllFilters}
-                className="text-sm text-[#00857E] hover:text-[#006d66] font-medium"
+                className="text-sm text-[#3b82f6] hover:text-[#2563eb] font-medium"
               >
                 Clear All
               </button>
@@ -208,7 +208,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
               placeholder="Min"
               value={priceRange.min}
               onChange={(e) => setPriceRange({ ...priceRange, min: e.target.value })}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
             />
             <span className="text-gray-500">-</span>
             <input
@@ -216,10 +216,10 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
               placeholder="Max"
               value={priceRange.max}
               onChange={(e) => setPriceRange({ ...priceRange, max: e.target.value })}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#00857E]"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#3b82f6]"
             />
           </div>
-          <button className="w-full mt-3 bg-[#00857E] hover:bg-[#006d66] text-white py-2 rounded-md transition-colors font-medium">
+          <button className="w-full mt-3 bg-[#3b82f6] hover:bg-[#2563eb] text-white py-2 rounded-md transition-colors font-medium">
             Apply
           </button>
         </div>
@@ -230,7 +230,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
             {/* Section Header */}
             <button
               onClick={() => toggleSection(section.id)}
-              className="w-full flex items-center justify-between py-2 hover:text-[#00857E] transition-colors"
+              className="w-full flex items-center justify-between py-2 hover:text-[#3b82f6] transition-colors"
             >
               <h3 className="font-semibold text-gray-900">{section.title}</h3>
               {expandedSections.has(section.id) ? (
@@ -251,7 +251,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
                         onClick={() => handleFilterChange(section.id, option.id)}
                         className={`w-10 h-10 rounded-full border-2 transition-all ${
                           selectedFilters[section.id]?.includes(option.id)
-                            ? 'border-[#00857E] scale-110'
+                            ? 'border-[#3b82f6] scale-110'
                             : 'border-gray-300 hover:border-gray-400'
                         }`}
                         style={{
@@ -273,7 +273,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
                           type="checkbox"
                           checked={selectedFilters[section.id]?.includes(option.id) || false}
                           onChange={() => handleFilterChange(section.id, option.id)}
-                          className="w-4 h-4 text-[#00857E] border-gray-300 rounded focus:ring-[#00857E]"
+                          className="w-4 h-4 text-[#3b82f6] border-gray-300 rounded focus:ring-[#3b82f6]"
                         />
                         <span className="ml-2 text-sm text-gray-700">{option.label}</span>
                       </div>

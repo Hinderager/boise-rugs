@@ -71,7 +71,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
             </span>
           )}
           {badge && (
-            <span className="bg-[#00857E] text-white px-2 py-1 text-xs font-bold rounded">
+            <span className="bg-[#3b82f6] text-white px-2 py-1 text-xs font-bold rounded">
               {badge}
             </span>
           )}
@@ -96,7 +96,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         {/* Free Shipping Badge */}
         {freeShipping && (
           <div className="absolute bottom-3 left-3 bg-white px-3 py-1 rounded-full shadow-sm">
-            <span className="text-xs font-semibold text-[#00857E]">Free Shipping</span>
+            <span className="text-xs font-semibold text-[#3b82f6]">Free Shipping</span>
           </div>
         )}
       </Link>
@@ -105,7 +105,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <div className="p-4">
         {/* Product Name */}
         <Link href={href}>
-          <h3 className="text-sm font-medium text-gray-900 mb-2 line-clamp-2 hover:text-[#00857E] transition-colors">
+          <h3 className="text-sm font-medium text-gray-900 mb-2 line-clamp-2 hover:text-[#3b82f6] transition-colors">
             {name}
           </h3>
         </Link>
@@ -137,7 +137,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 onClick={() => setSelectedColorIndex(index)}
                 className={`w-6 h-6 rounded-full border-2 transition-all ${
                   selectedColorIndex === index
-                    ? 'border-[#00857E] scale-110'
+                    ? 'border-[#3b82f6] scale-110'
                     : 'border-gray-300 hover:border-gray-400'
                 }`}
                 style={{ backgroundColor: color }}
@@ -151,7 +151,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         )}
 
         {/* Quick Add Button (shown on hover) */}
-        <button className="w-full mt-3 bg-[#00857E] text-white py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-[#006d66] font-medium text-sm">
+        <button className="w-full mt-3 bg-[#3b82f6] text-white py-2 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-[#2563eb] font-medium text-sm">
           Quick View
         </button>
       </div>

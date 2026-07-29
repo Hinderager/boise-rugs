@@ -103,7 +103,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
             <button
               onClick={handlePrevious}
               disabled={currentIndex === 0}
-              className="p-2 border border-gray-300 rounded-full hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-all hover:border-[#00857E]"
+              className="p-2 border border-gray-300 rounded-full hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-all hover:border-[#3b82f6]"
               aria-label="Previous"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -111,7 +111,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
             <button
               onClick={handleNext}
               disabled={currentIndex >= maxIndex}
-              className="p-2 border border-gray-300 rounded-full hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-all hover:border-[#00857E]"
+              className="p-2 border border-gray-300 rounded-full hover:bg-white disabled:opacity-50 disabled:cursor-not-allowed transition-all hover:border-[#3b82f6]"
               aria-label="Next"
             >
               <ChevronRight className="w-6 h-6" />
@@ -150,7 +150,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
                     {/* Badge */}
                     {collection.badge && (
                       <div className="absolute top-4 right-4">
-                        <span className="bg-[#00857E] text-white px-3 py-1 rounded-full text-xs font-bold uppercase">
+                        <span className="bg-[#3b82f6] text-white px-3 py-1 rounded-full text-xs font-bold uppercase">
                           {collection.badge}
                         </span>
                       </div>
@@ -166,7 +166,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
                       </p>
 
                       {/* Shop Now Link */}
-                      <div className="mt-4 flex items-center text-white font-semibold group-hover:text-[#00857E] transition-colors">
+                      <div className="mt-4 flex items-center text-white font-semibold group-hover:text-[#3b82f6] transition-colors">
                         <span className="text-sm">Shop Now</span>
                         <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                       </div>
@@ -186,7 +186,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
               onClick={() => setCurrentIndex(index)}
               className={`w-2 h-2 rounded-full transition-all ${
                 currentIndex === index
-                  ? 'bg-[#00857E] w-8'
+                  ? 'bg-[#3b82f6] w-8'
                   : 'bg-gray-300'
               }`}
               aria-label={`Go to slide ${index + 1}`}
@@ -198,7 +198,7 @@ const FeaturedCollections: React.FC<FeaturedCollectionsProps> = ({
         <div className="text-center mt-10">
           <Link
             href="/collections"
-            className="inline-block bg-[#00857E] hover:bg-[#006d66] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
+            className="inline-block bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
           >
             View All Collections
           </Link>

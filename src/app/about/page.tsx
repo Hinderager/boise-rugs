@@ -52,20 +52,20 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-[#00857E] text-white rounded-lg p-8 mb-12">
+            <div className="bg-[#3b82f6] text-white rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold mb-6 text-center">Why Choose Boise Rugs?</h2>
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Unbeatable Prices</h3>
-                  <p className="text-teal-100">Save up to 80% off retail</p>
+                  <p className="text-blue-100">Save up to 80% off retail</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Quality Guaranteed</h3>
-                  <p className="text-teal-100">Premium materials</p>
+                  <p className="text-blue-100">Premium materials</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Free Shipping</h3>
-                  <p className="text-teal-100">On orders over $99</p>
+                  <p className="text-blue-100">On orders over $99</p>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function AboutPage() {
               </p>
               <a
                 href="/rugs"
-                className="inline-block bg-[#00857E] text-white font-semibold py-3 px-8 rounded-lg hover:bg-[#006d66] transition-colors"
+                className="inline-block bg-[#3b82f6] text-white font-semibold py-3 px-8 rounded-lg hover:bg-[#2563eb] transition-colors"
               >
                 Shop All Rugs
               </a>

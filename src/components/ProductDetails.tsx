@@ -133,11 +133,11 @@ export default function ProductDetails({ description, specifications, shipping }
                 <h4 className="font-semibold text-gray-900 mb-2">Need Help?</h4>
                 <p className="text-gray-700">
                   Contact our customer service team at{' '}
-                  <a href="tel:1-800-555-0123" className="text-[#00857E] hover:underline">
+                  <a href="tel:1-800-555-0123" className="text-[#3b82f6] hover:underline">
                     1-800-555-0123
                   </a>{' '}
                   or{' '}
-                  <a href="mailto:support@boiserugs.com" className="text-[#00857E] hover:underline">
+                  <a href="mailto:support@boiserugs.com" className="text-[#3b82f6] hover:underline">
                     support@boiserugs.com
                   </a>
                 </p>

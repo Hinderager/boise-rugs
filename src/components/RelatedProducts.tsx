@@ -46,14 +46,14 @@ export default function RelatedProducts({ products }: RelatedProductsProps) {
         <div className="hidden md:flex items-center gap-2">
           <button
             onClick={() => scroll('left')}
-            className="p-2 border-2 border-gray-300 hover:border-[#00857E] rounded-lg transition-colors"
+            className="p-2 border-2 border-gray-300 hover:border-[#3b82f6] rounded-lg transition-colors"
             aria-label="Scroll left"
           >
             <ChevronLeft className="w-5 h-5 text-gray-700" />
           </button>
           <button
             onClick={() => scroll('right')}
-            className="p-2 border-2 border-gray-300 hover:border-[#00857E] rounded-lg transition-colors"
+            className="p-2 border-2 border-gray-300 hover:border-[#3b82f6] rounded-lg transition-colors"
             aria-label="Scroll right"
           >
             <ChevronRight className="w-5 h-5 text-gray-700" />

@@ -53,11 +53,11 @@ export default function ProductInfo({ product }: ProductInfoProps) {
     <div className="w-full">
       {/* Breadcrumbs */}
       <nav className="flex items-center gap-2 text-sm text-gray-600 mb-4">
-        <Link href="/" className="hover:text-[#00857E]">
+        <Link href="/" className="hover:text-[#3b82f6]">
           Home
         </Link>
         <span>/</span>
-        <Link href={`/category/${product.category.toLowerCase()}`} className="hover:text-[#00857E]">
+        <Link href={`/category/${product.category.toLowerCase()}`} className="hover:text-[#3b82f6]">
           {product.category}
         </Link>
         <span>/</span>
@@ -66,7 +66,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
 
       {/* Best Seller Badge */}
       {product.isBestSeller && (
-        <div className="inline-block bg-[#00857E] text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">
+        <div className="inline-block bg-[#3b82f6] text-white text-xs font-semibold px-3 py-1 rounded-full mb-3">
           BEST SELLER
         </div>
       )}
@@ -122,7 +122,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           <select
             value={selectedSize}
             onChange={(e) => setSelectedSize(e.target.value)}
-            className="w-full appearance-none border-2 border-gray-300 rounded-lg px-4 py-3 pr-10 bg-white hover:border-[#00857E] focus:border-[#00857E] focus:outline-none focus:ring-2 focus:ring-[#00857E]/20 transition-colors"
+            className="w-full appearance-none border-2 border-gray-300 rounded-lg px-4 py-3 pr-10 bg-white hover:border-[#3b82f6] focus:border-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/20 transition-colors"
           >
             {product.sizes.map((size) => (
               <option key={size} value={size}>
@@ -146,7 +146,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
               onClick={() => setSelectedColor(color)}
               className={`w-10 h-10 rounded-full border-2 transition-all ${
                 selectedColor.name === color.name
-                  ? 'border-[#00857E] ring-2 ring-[#00857E]/30 scale-110'
+                  ? 'border-[#3b82f6] ring-2 ring-[#3b82f6]/30 scale-110'
                   : 'border-gray-300 hover:border-gray-400'
               }`}
               style={{ backgroundColor: color.hex }}
@@ -165,7 +165,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           <select
             value={quantity}
             onChange={(e) => setQuantity(Number(e.target.value))}
-            className="w-full appearance-none border-2 border-gray-300 rounded-lg px-4 py-3 pr-10 bg-white hover:border-[#00857E] focus:border-[#00857E] focus:outline-none focus:ring-2 focus:ring-[#00857E]/20 transition-colors"
+            className="w-full appearance-none border-2 border-gray-300 rounded-lg px-4 py-3 pr-10 bg-white hover:border-[#3b82f6] focus:border-[#3b82f6] focus:outline-none focus:ring-2 focus:ring-[#3b82f6]/20 transition-colors"
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
               <option key={num} value={num}>
@@ -179,12 +179,12 @@ export default function ProductInfo({ product }: ProductInfoProps) {
 
       {/* Rug Pad Option */}
       <div className="mb-6">
-        <label className="flex items-center gap-3 p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:border-[#00857E] transition-colors">
+        <label className="flex items-center gap-3 p-4 border-2 border-gray-300 rounded-lg cursor-pointer hover:border-[#3b82f6] transition-colors">
           <input
             type="checkbox"
             checked={addRugPad}
             onChange={(e) => setAddRugPad(e.target.checked)}
-            className="w-5 h-5 text-[#00857E] rounded border-gray-300 focus:ring-[#00857E]"
+            className="w-5 h-5 text-[#3b82f6] rounded border-gray-300 focus:ring-[#3b82f6]"
           />
           <div className="flex-1">
             <span className="block text-sm font-semibold text-gray-900">
@@ -199,13 +199,13 @@ export default function ProductInfo({ product }: ProductInfoProps) {
       </div>
 
       {/* Add to Cart Button */}
-      <button className="w-full bg-[#00857E] hover:bg-[#006d67] text-white font-semibold py-4 px-6 rounded-lg transition-colors mb-4 text-lg">
+      <button className="w-full bg-[#3b82f6] hover:bg-[#006d67] text-white font-semibold py-4 px-6 rounded-lg transition-colors mb-4 text-lg">
         Add to Cart
       </button>
 
       {/* Free Shipping Badge */}
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 flex items-center gap-3">
-        <div className="bg-[#00857E] p-2 rounded-lg">
+        <div className="bg-[#3b82f6] p-2 rounded-lg">
           <Truck className="w-6 h-6 text-white" />
         </div>
         <div>

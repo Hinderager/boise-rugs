@@ -139,7 +139,7 @@ const StyleSelector: React.FC<StyleSelectorProps> = ({
                 onMouseEnter={() => setHoveredStyle(style.id)}
                 onMouseLeave={() => setHoveredStyle(null)}
                 className={`block relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 ${
-                  selectedStyle === style.id ? 'ring-4 ring-[#00857E]' : ''
+                  selectedStyle === style.id ? 'ring-4 ring-[#3b82f6]' : ''
                 }`}
               >
                 {/* Image Container */}
@@ -176,7 +176,7 @@ const StyleSelector: React.FC<StyleSelectorProps> = ({
                       </span>
 
                       {/* Arrow Icon */}
-                      <div className={`w-8 h-8 bg-[#00857E] rounded-full flex items-center justify-center transition-all duration-300 ${
+                      <div className={`w-8 h-8 bg-[#3b82f6] rounded-full flex items-center justify-center transition-all duration-300 ${
                         hoveredStyle === style.id ? 'translate-x-0 opacity-100' : '-translate-x-2 opacity-0'
                       }`}>
                         <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -188,7 +188,7 @@ const StyleSelector: React.FC<StyleSelectorProps> = ({
 
                   {/* Selection Indicator */}
                   {selectedStyle === style.id && (
-                    <div className="absolute top-3 right-3 w-8 h-8 bg-[#00857E] rounded-full flex items-center justify-center shadow-lg">
+                    <div className="absolute top-3 right-3 w-8 h-8 bg-[#3b82f6] rounded-full flex items-center justify-center shadow-lg">
                       <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
@@ -204,7 +204,7 @@ const StyleSelector: React.FC<StyleSelectorProps> = ({
         <div className="text-center mt-10">
           <Link
             href="/styles"
-            className="inline-block bg-[#00857E] hover:bg-[#006d66] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
+            className="inline-block bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold px-8 py-3 rounded-lg transition-colors duration-300"
           >
             Explore All Styles
           </Link>
@@ -217,7 +217,7 @@ const StyleSelector: React.FC<StyleSelectorProps> = ({
             <Link
               key={tag}
               href={`/styles/${tag.toLowerCase()}`}
-              className="text-sm px-4 py-2 border border-gray-300 rounded-full hover:border-[#00857E] hover:text-[#00857E] transition-colors"
+              className="text-sm px-4 py-2 border border-gray-300 rounded-full hover:border-[#3b82f6] hover:text-[#3b82f6] transition-colors"
             >
               {tag}
             </Link>
